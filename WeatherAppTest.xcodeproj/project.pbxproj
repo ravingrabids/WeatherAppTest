@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		9D4AD97F20DAF12500704089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AD97E20DAF12500704089 /* AppDelegate.swift */; };
-		9D4AD98120DAF12500704089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AD98020DAF12500704089 /* ViewController.swift */; };
+		9D4AD98120DAF12500704089 /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AD98020DAF12500704089 /* TodayController.swift */; };
 		9D4AD98420DAF12500704089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AD98220DAF12500704089 /* Main.storyboard */; };
 		9D4AD98620DAF12500704089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AD98520DAF12500704089 /* Assets.xcassets */; };
 		9D4AD98920DAF12500704089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AD98720DAF12500704089 /* LaunchScreen.storyboard */; };
+		9D4AD99120DAF4E700704089 /* ForecastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AD99020DAF4E700704089 /* ForecastController.swift */; };
+		9D4AD99520DAFA6C00704089 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AD99420DAFA6C00704089 /* TabBarController.swift */; };
+		9DA330D920DFD70D008D6B40 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA330D520DFD6FA008D6B40 /* ProximaNova-Bold.otf */; };
+		9DA330DA20DFD70D008D6B40 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA330D620DFD6FA008D6B40 /* ProximaNova-Light.otf */; };
+		9DA330DB20DFD70D008D6B40 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA330D720DFD6FA008D6B40 /* ProximaNova-Regular.otf */; };
+		9DA330DC20DFD70D008D6B40 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA330D820DFD6FA008D6B40 /* ProximaNova-Semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D4AD97B20DAF12500704089 /* WeatherAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4AD97E20DAF12500704089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D4AD98020DAF12500704089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D4AD98020DAF12500704089 /* TodayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
 		9D4AD98320DAF12500704089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D4AD98520DAF12500704089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4AD98820DAF12500704089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D4AD98A20DAF12500704089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4AD99020DAF4E700704089 /* ForecastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastController.swift; sourceTree = "<group>"; };
+		9D4AD99420DAFA6C00704089 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9DA330D520DFD6FA008D6B40 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = SOURCE_ROOT; };
+		9DA330D620DFD6FA008D6B40 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = SOURCE_ROOT; };
+		9DA330D720DFD6FA008D6B40 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = SOURCE_ROOT; };
+		9DA330D820DFD6FA008D6B40 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,27 @@
 			isa = PBXGroup;
 			children = (
 				9D4AD97E20DAF12500704089 /* AppDelegate.swift */,
-				9D4AD98020DAF12500704089 /* ViewController.swift */,
+				9D4AD99420DAFA6C00704089 /* TabBarController.swift */,
+				9D4AD98020DAF12500704089 /* TodayController.swift */,
+				9D4AD99020DAF4E700704089 /* ForecastController.swift */,
 				9D4AD98220DAF12500704089 /* Main.storyboard */,
 				9D4AD98520DAF12500704089 /* Assets.xcassets */,
 				9D4AD98720DAF12500704089 /* LaunchScreen.storyboard */,
 				9D4AD98A20DAF12500704089 /* Info.plist */,
+				9DA330CA20DFACB3008D6B40 /* Fonts */,
 			);
 			path = WeatherAppTest;
+			sourceTree = "<group>";
+		};
+		9DA330CA20DFACB3008D6B40 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9DA330D520DFD6FA008D6B40 /* ProximaNova-Bold.otf */,
+				9DA330D620DFD6FA008D6B40 /* ProximaNova-Light.otf */,
+				9DA330D720DFD6FA008D6B40 /* ProximaNova-Regular.otf */,
+				9DA330D820DFD6FA008D6B40 /* ProximaNova-Semibold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA330D920DFD70D008D6B40 /* ProximaNova-Bold.otf in Resources */,
+				9DA330DA20DFD70D008D6B40 /* ProximaNova-Light.otf in Resources */,
+				9DA330DB20DFD70D008D6B40 /* ProximaNova-Regular.otf in Resources */,
+				9DA330DC20DFD70D008D6B40 /* ProximaNova-Semibold.otf in Resources */,
 				9D4AD98920DAF12500704089 /* LaunchScreen.storyboard in Resources */,
 				9D4AD98620DAF12500704089 /* Assets.xcassets in Resources */,
 				9D4AD98420DAF12500704089 /* Main.storyboard in Resources */,
@@ -136,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4AD98120DAF12500704089 /* ViewController.swift in Sources */,
+				9D4AD98120DAF12500704089 /* TodayController.swift in Sources */,
+				9D4AD99520DAFA6C00704089 /* TabBarController.swift in Sources */,
+				9D4AD99120DAF4E700704089 /* ForecastController.swift in Sources */,
 				9D4AD97F20DAF12500704089 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
